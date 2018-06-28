@@ -8,8 +8,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-	console.log(msg.content);
-	msg.reply(JSON.stringify(msg));
+	console.log(msg);
+	msg.reply(msg);
 });
 
 client.login(process.env.DISCORD_BOT_TOKEN);
