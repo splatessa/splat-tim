@@ -1,33 +1,35 @@
 {
-  "name": "splat-tim",
-  "version": "1.0.0",
-  "description": "splatoon bot",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/splatessa/splat-tim.git"
-  },
-  "keywords": [
-    "splatoon",
-    "bot",
-    "splat",
-    "tim"
-  ],
-  "author": "splatessa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/splatessa/splat-tim/issues"
-  },
-  "homepage": "https://github.com/splatessa/splat-tim#readme",
-  "dependencies": {
-    "bufferutil": "^3.0.5",
-    "discord.js": "^11.3.2",
-    "dotenv": "^6.0.0",
-    "erlpack": "github:hammerandchisel/erlpack",
-    "sodium": "^2.0.3",
-    "uws": "^10.148.1"
-  }
+	"name": "splat-tim",
+	"version": "1.0.0",
+	"description": "splatoon bot",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"debug": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/splatessa/splat-tim.git"
+	},
+	"keywords": [
+		"splatoon",
+		"bot",
+		"splat",
+		"tim"
+	],
+	"author": "splatessa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/splatessa/splat-tim/issues"
+	},
+	"homepage": "https://github.com/splatessa/splat-tim#readme",
+	"dependencies": {
+		"bufferutil": "^3.0.5",
+		"discord.js": "^11.3.2",
+		"dotenv": "^6.0.0",
+		"erlpack": "github:hammerandchisel/erlpack",
+		"sodium": "^2.0.3",
+		"uws": "^10.148.1"
+	}
 }
