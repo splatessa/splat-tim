@@ -9,9 +9,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 	console.log(msg.content);
-	if (msg.content === 'ping') {
-		msg.reply('pong');
-	}
+	msg.reply(JSON.stringify(msg));
 });
 
 client.login(process.env.DISCORD_BOT_TOKEN);
