@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-	console.log(JSON.stringify(JSON.parse(msg)));
+	console.log(msg.content);
 	if (msg.content === 'ping') {
 		msg.reply('pong');
 	}
